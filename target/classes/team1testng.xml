@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.dollardays.listners.TestListener" />
+	</listeners>
+
+	<test name="Dollar Days Test">
+
+		<classes>
+           <class name="com.dollardays.testcases.Team1HomePageTestcase" /> 
+			
+			 <class name="com.dollardays.testcases.Team1CreateAccountTestCase" />
+			<class name="com.dollardays.testcases.Team1LoginTestcase" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

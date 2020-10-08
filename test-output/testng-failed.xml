@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.dollardays.listners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Dollar Days Test(failed)">
+    <classes>
+      <class name="com.dollardays.testcases.Team1HomePageTestcase">
+        <methods>
+          <include name="quit"/>
+          <include name="tc_verfiyFooterLinks"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.Team1HomePageTestcase -->
+    </classes>
+  </test> <!-- Dollar Days Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

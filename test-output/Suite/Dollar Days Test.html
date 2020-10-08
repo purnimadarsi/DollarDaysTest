@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Dollar Days Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Dollar Days Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 07 17:50:35 MST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>578 seconds (578516 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dollardays.testcases.Team1CreateAccountTestCase.createlogin()'><b>createlogin</b><br>Test class: com.dollardays.testcases.Team1CreateAccountTestCase<br>Parameters: {ConfPassword=shilpa123, TestCase= Create Account, TCID=TC1, SheetName=Sheet3, Runmode=yes, Email=shilpa.neeraj@gmail.com, Lname=Mishra, Password=shilpa123, Phno=9.8065654354E10, Fname=Shilpa}</td>
+<td></td>
+<td>29</td>
+<td>com.dollardays.testcases.Team1CreateAccountTestCase@71a794e5</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1LoginTestcase.tc_01_SignInPage_ValidUsername_Password()'><b>tc_01_SignInPage_ValidUsername_Password</b><br>Test class: com.dollardays.testcases.Team1LoginTestcase<br>Parameters: {TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, SheetName=Sheet1, UserName=qwerr@gmail.com, TCID=TC1, HomePage Title=}</td>
+<td></td>
+<td>32</td>
+<td>com.dollardays.testcases.Team1LoginTestcase@76329302</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1LoginTestcase.tc_02_SignInPageValidUsername_EmptyPassword()'><b>tc_02_SignInPageValidUsername_EmptyPassword</b><br>Test class: com.dollardays.testcases.Team1LoginTestcase<br>Parameters: {TestCase=valid email_id and empty password, SignInUser_Name=, Password=, Runmode=Yes, SheetName=Sheet1, UserName=srikanthtesting100@gmail.com, TCID=TC2, HomePage Title=}</td>
+<td></td>
+<td>25</td>
+<td>com.dollardays.testcases.Team1LoginTestcase@76329302</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1LoginTestcase.tc_03_SignInPageEmptyUsername_EmptyPassword()'><b>tc_03_SignInPageEmptyUsername_EmptyPassword</b><br>Test class: com.dollardays.testcases.Team1LoginTestcase<br>Parameters: {TestCase=empty email_id and empty password, SignInUser_Name=, Password=, Runmode=yes, SheetName=Sheet1, UserName=, TCID=TC3, HomePage Title=}</td>
+<td></td>
+<td>26</td>
+<td>com.dollardays.testcases.Team1LoginTestcase@76329302</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1LoginTestcase.tc_04_SignInPageInValidEmailAddressFormat()'><b>tc_04_SignInPageInValidEmailAddressFormat</b><br>Test class: com.dollardays.testcases.Team1LoginTestcase<br>Parameters: {TestCase=invalid Email address format, SignInUser_Name=, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Sheet1, UserName=srikanthtesting100gmail.com, TCID=TC4, HomePage Title=}</td>
+<td></td>
+<td>23</td>
+<td>com.dollardays.testcases.Team1LoginTestcase@76329302</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1LoginTestcase.tc_05_SignInPageValidEmailAddress_InvalidPassword()'><b>tc_05_SignInPageValidEmailAddress_InvalidPassword</b><br>Test class: com.dollardays.testcases.Team1LoginTestcase<br>Parameters: {TestCase=valid email address and invalid password, SignInUser_Name=, Password=cGFzc3dvcmQxMjM0NQ==, Runmode=yes, SheetName=Sheet1, UserName=srikanthtesting100@gmail.com, TCID=TC5, HomePage Title=}</td>
+<td></td>
+<td>26</td>
+<td>com.dollardays.testcases.Team1LoginTestcase@76329302</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_06_CheckPageTitle()'><b>tc_06_CheckPageTitle</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase<br>Parameters: {TestCase=verify home page title, SignInList=, SheetName=Sheet2, HomePageTitle=DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products, TCID=TC6, WishList=}</td>
+<td></td>
+<td>0</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1LoginTestcase.tc_SignInPage_Display_SignIn_Name()'><b>tc_SignInPage_Display_SignIn_Name</b><br>Test class: com.dollardays.testcases.Team1LoginTestcase<br>Parameters: {TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, SheetName=Sheet1, UserName=qwerr@gmail.com, TCID=TC1, HomePage Title=}</td>
+<td></td>
+<td>39</td>
+<td>com.dollardays.testcases.Team1LoginTestcase@76329302</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_verfiyCartLogo()'><b>tc_verfiyCartLogo</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase</td>
+<td></td>
+<td>0</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_verfiyDdLogo()'><b>tc_verfiyDdLogo</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase</td>
+<td></td>
+<td>0</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_verfiySearchBar()'><b>tc_verfiySearchBar</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase</td>
+<td></td>
+<td>0</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_verfiySignInList()'><b>tc_verfiySignInList</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase<br>Parameters: {TestCase=verfiy signin list on homepage, SignInList=Welcome!,Sign In,Create account,Help, SheetName=Sheet2, HomePageTitle=, TCID=TC11, WishList=}</td>
+<td></td>
+<td>1</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_verfiySignInLogo()'><b>tc_verfiySignInLogo</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase</td>
+<td></td>
+<td>0</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_verfiyWishList()'><b>tc_verfiyWishList</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase<br>Parameters: {TestCase=vefify wish list on homepage, SignInList=, SheetName=Sheet2, HomePageTitle=, TCID=TC12, WishList=Wishlist,Learn More,Create a Wishlist,Donate Today}</td>
+<td></td>
+<td>3</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+<tr>
+<td title='com.dollardays.testcases.Team1HomePageTestcase.tc_verfiyWishListLogo()'><b>tc_verfiyWishListLogo</b><br>Test class: com.dollardays.testcases.Team1HomePageTestcase</td>
+<td></td>
+<td>11</td>
+<td>com.dollardays.testcases.Team1HomePageTestcase@7fad8c79</td></tr>
+</table><p>
+</body>
+</html>

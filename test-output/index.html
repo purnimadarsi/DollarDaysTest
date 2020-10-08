@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\workspace\eclipse\DollarDays_30Aug\DollarDays_30Aug\config\team1testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1CreateAccountTestCase" hash-for-method="createlogin({ConfPassword=shilpa123, TestCase= Create Account, TCID=TC1, SheetName=Sheet3, Runmode=yes, Email=sh...)">createlogin({ConfPassword=shilpa123, TestCase= Create Account, TCID=TC1, SheetName=Sheet3, Runmode=yes, Email=sh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1LoginTestcase" hash-for-method="tc_01_SignInPage_ValidUsername_Password({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)">tc_01_SignInPage_ValidUsername_Password({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1LoginTestcase" hash-for-method="tc_02_SignInPageValidUsername_EmptyPassword({TestCase=valid email_id and empty password, SignInUser_Name=, Password=, Runmode=Yes, SheetName=She...)">tc_02_SignInPageValidUsername_EmptyPassword({TestCase=valid email_id and empty password, SignInUser_Name=, Password=, Runmode=Yes, SheetName=She...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1LoginTestcase" hash-for-method="tc_03_SignInPageEmptyUsername_EmptyPassword({TestCase=empty email_id and empty password, SignInUser_Name=, Password=, Runmode=yes, SheetName=She...)">tc_03_SignInPageEmptyUsername_EmptyPassword({TestCase=empty email_id and empty password, SignInUser_Name=, Password=, Runmode=yes, SheetName=She...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1LoginTestcase" hash-for-method="tc_04_SignInPageInValidEmailAddressFormat({TestCase=invalid Email address format, SignInUser_Name=, Password=cGFzc3dvcmQxMjM=, Runmode=yes, Sh...)">tc_04_SignInPageInValidEmailAddressFormat({TestCase=invalid Email address format, SignInUser_Name=, Password=cGFzc3dvcmQxMjM=, Runmode=yes, Sh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1LoginTestcase" hash-for-method="tc_05_SignInPageValidEmailAddress_InvalidPassword({TestCase=valid email address and invalid password, SignInUser_Name=, Password=cGFzc3dvcmQxMjM0NQ==,...)">tc_05_SignInPageValidEmailAddress_InvalidPassword({TestCase=valid email address and invalid password, SignInUser_Name=, Password=cGFzc3dvcmQxMjM0NQ==,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_06_CheckPageTitle({TestCase=verify home page title, SignInList=, SheetName=Sheet2, HomePageTitle=DollarDays | Bulk Goo...)">tc_06_CheckPageTitle({TestCase=verify home page title, SignInList=, SheetName=Sheet2, HomePageTitle=DollarDays | Bulk Goo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1LoginTestcase" hash-for-method="tc_SignInPage_Display_SignIn_Name({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)">tc_SignInPage_Display_SignIn_Name({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_verfiyCartLogo">tc_verfiyCartLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_verfiyDdLogo">tc_verfiyDdLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_verfiySearchBar">tc_verfiySearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_verfiySignInList({TestCase=verfiy signin list on homepage, SignInList=Welcome!,Sign In,Create account,Help, SheetName...)">tc_verfiySignInList({TestCase=verfiy signin list on homepage, SignInList=Welcome!,Sign In,Create account,Help, SheetName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_verfiySignInLogo">tc_verfiySignInLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_verfiyWishList({TestCase=vefify wish list on homepage, SignInList=, SheetName=Sheet2, HomePageTitle=, TCID=TC12, Wi...)">tc_verfiyWishList({TestCase=vefify wish list on homepage, SignInList=, SheetName=Sheet2, HomePageTitle=, TCID=TC12, Wi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.Team1HomePageTestcase" hash-for-method="tc_verfiyWishListLogo">tc_verfiyWishListLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.Team1CreateAccountTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({ConfPassword=shilpa123, TestCase= Create Account, TCID=TC1, SheetName=Sheet3, Runmode=yes, Email=sh...)">
+                  </a> <!-- createlogin({ConfPassword=shilpa123, TestCase= Create Account, TCID=TC1, SheetName=Sheet3, Runmode=yes, Email=sh...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({ConfPassword=shilpa123, TestCase= Create Account, TCID=TC1, SheetName=Sheet3, Runmode=yes, Email=shilpa.neeraj@gmail.com, Lname=Mishra, Password=shilpa123, Phno=9.8065654354E10, Fname=Shilpa})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.Team1HomePageTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_06_CheckPageTitle({TestCase=verify home page title, SignInList=, SheetName=Sheet2, HomePageTitle=DollarDays | Bulk Goo...)">
+                  </a> <!-- tc_06_CheckPageTitle({TestCase=verify home page title, SignInList=, SheetName=Sheet2, HomePageTitle=DollarDays | Bulk Goo...) -->
+                  <span class="method-name">tc_06_CheckPageTitle</span>
+                  <span class="parameters">({TestCase=verify home page title, SignInList=, SheetName=Sheet2, HomePageTitle=DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products, TCID=TC6, WishList=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_verfiyCartLogo">
+                  </a> <!-- tc_verfiyCartLogo -->
+                  <span class="method-name">tc_verfiyCartLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_verfiyDdLogo">
+                  </a> <!-- tc_verfiyDdLogo -->
+                  <span class="method-name">tc_verfiyDdLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_verfiySearchBar">
+                  </a> <!-- tc_verfiySearchBar -->
+                  <span class="method-name">tc_verfiySearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_verfiySignInList({TestCase=verfiy signin list on homepage, SignInList=Welcome!,Sign In,Create account,Help, SheetName...)">
+                  </a> <!-- tc_verfiySignInList({TestCase=verfiy signin list on homepage, SignInList=Welcome!,Sign In,Create account,Help, SheetName...) -->
+                  <span class="method-name">tc_verfiySignInList</span>
+                  <span class="parameters">({TestCase=verfiy signin list on homepage, SignInList=Welcome!,Sign In,Create account,Help, SheetName=Sheet2, HomePageTitle=, TCID=TC11, WishList=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_verfiySignInLogo">
+                  </a> <!-- tc_verfiySignInLogo -->
+                  <span class="method-name">tc_verfiySignInLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_verfiyWishList({TestCase=vefify wish list on homepage, SignInList=, SheetName=Sheet2, HomePageTitle=, TCID=TC12, Wi...)">
+                  </a> <!-- tc_verfiyWishList({TestCase=vefify wish list on homepage, SignInList=, SheetName=Sheet2, HomePageTitle=, TCID=TC12, Wi...) -->
+                  <span class="method-name">tc_verfiyWishList</span>
+                  <span class="parameters">({TestCase=vefify wish list on homepage, SignInList=, SheetName=Sheet2, HomePageTitle=, TCID=TC12, WishList=Wishlist,Learn More,Create a Wishlist,Donate Today})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_verfiyWishListLogo">
+                  </a> <!-- tc_verfiyWishListLogo -->
+                  <span class="method-name">tc_verfiyWishListLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.Team1LoginTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_01_SignInPage_ValidUsername_Password({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)">
+                  </a> <!-- tc_01_SignInPage_ValidUsername_Password({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...) -->
+                  <span class="method-name">tc_01_SignInPage_ValidUsername_Password</span>
+                  <span class="parameters">({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, SheetName=Sheet1, UserName=qwerr@gmail.com, TCID=TC1, HomePage Title=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_02_SignInPageValidUsername_EmptyPassword({TestCase=valid email_id and empty password, SignInUser_Name=, Password=, Runmode=Yes, SheetName=She...)">
+                  </a> <!-- tc_02_SignInPageValidUsername_EmptyPassword({TestCase=valid email_id and empty password, SignInUser_Name=, Password=, Runmode=Yes, SheetName=She...) -->
+                  <span class="method-name">tc_02_SignInPageValidUsername_EmptyPassword</span>
+                  <span class="parameters">({TestCase=valid email_id and empty password, SignInUser_Name=, Password=, Runmode=Yes, SheetName=Sheet1, UserName=srikanthtesting100@gmail.com, TCID=TC2, HomePage Title=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_03_SignInPageEmptyUsername_EmptyPassword({TestCase=empty email_id and empty password, SignInUser_Name=, Password=, Runmode=yes, SheetName=She...)">
+                  </a> <!-- tc_03_SignInPageEmptyUsername_EmptyPassword({TestCase=empty email_id and empty password, SignInUser_Name=, Password=, Runmode=yes, SheetName=She...) -->
+                  <span class="method-name">tc_03_SignInPageEmptyUsername_EmptyPassword</span>
+                  <span class="parameters">({TestCase=empty email_id and empty password, SignInUser_Name=, Password=, Runmode=yes, SheetName=Sheet1, UserName=, TCID=TC3, HomePage Title=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_04_SignInPageInValidEmailAddressFormat({TestCase=invalid Email address format, SignInUser_Name=, Password=cGFzc3dvcmQxMjM=, Runmode=yes, Sh...)">
+                  </a> <!-- tc_04_SignInPageInValidEmailAddressFormat({TestCase=invalid Email address format, SignInUser_Name=, Password=cGFzc3dvcmQxMjM=, Runmode=yes, Sh...) -->
+                  <span class="method-name">tc_04_SignInPageInValidEmailAddressFormat</span>
+                  <span class="parameters">({TestCase=invalid Email address format, SignInUser_Name=, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Sheet1, UserName=srikanthtesting100gmail.com, TCID=TC4, HomePage Title=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_05_SignInPageValidEmailAddress_InvalidPassword({TestCase=valid email address and invalid password, SignInUser_Name=, Password=cGFzc3dvcmQxMjM0NQ==,...)">
+                  </a> <!-- tc_05_SignInPageValidEmailAddress_InvalidPassword({TestCase=valid email address and invalid password, SignInUser_Name=, Password=cGFzc3dvcmQxMjM0NQ==,...) -->
+                  <span class="method-name">tc_05_SignInPageValidEmailAddress_InvalidPassword</span>
+                  <span class="parameters">({TestCase=valid email address and invalid password, SignInUser_Name=, Password=cGFzc3dvcmQxMjM0NQ==, Runmode=yes, SheetName=Sheet1, UserName=srikanthtesting100@gmail.com, TCID=TC5, HomePage Title=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_SignInPage_Display_SignIn_Name({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)">
+                  </a> <!-- tc_SignInPage_Display_SignIn_Name({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...) -->
+                  <span class="method-name">tc_SignInPage_Display_SignIn_Name</span>
+                  <span class="parameters">({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, SheetName=Sheet1, UserName=qwerr@gmail.com, TCID=TC1, HomePage Title=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\workspace\eclipse\DollarDays_30Aug\DollarDays_30Aug\config\team1testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dollar Days Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.Team1HomePageTestcase&quot;/&gt;
+      &lt;class name=&quot;com.dollardays.testcases.Team1CreateAccountTestCase&quot;/&gt;
+      &lt;class name=&quot;com.dollardays.testcases.Team1LoginTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dollar Days Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dollar Days Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc_verfiySignInList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc_SignInPage_Display_SignIn_Name')
+data.setCell(0, 2, 'com.dollardays.testcases.Team1LoginTestcase')
+data.setCell(0, 3, 39325);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc_01_SignInPage_ValidUsername_Password')
+data.setCell(1, 2, 'com.dollardays.testcases.Team1LoginTestcase')
+data.setCell(1, 3, 32166);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createlogin')
+data.setCell(2, 2, 'com.dollardays.testcases.Team1CreateAccountTestCase')
+data.setCell(2, 3, 29282);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc_05_SignInPageValidEmailAddress_InvalidPassword')
+data.setCell(3, 2, 'com.dollardays.testcases.Team1LoginTestcase')
+data.setCell(3, 3, 26792);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc_03_SignInPageEmptyUsername_EmptyPassword')
+data.setCell(4, 2, 'com.dollardays.testcases.Team1LoginTestcase')
+data.setCell(4, 3, 26460);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc_02_SignInPageValidUsername_EmptyPassword')
+data.setCell(5, 2, 'com.dollardays.testcases.Team1LoginTestcase')
+data.setCell(5, 3, 25394);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc_04_SignInPageInValidEmailAddressFormat')
+data.setCell(6, 2, 'com.dollardays.testcases.Team1LoginTestcase')
+data.setCell(6, 3, 23706);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc_verfiyWishListLogo')
+data.setCell(7, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(7, 3, 11130);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc_verfiyWishList')
+data.setCell(8, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(8, 3, 3241);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc_verfiySignInList')
+data.setCell(9, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(9, 3, 1360);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc_06_CheckPageTitle')
+data.setCell(10, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(10, 3, 550);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc_verfiySignInLogo')
+data.setCell(11, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(11, 3, 470);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc_verfiyDdLogo')
+data.setCell(12, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(12, 3, 333);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc_verfiySearchBar')
+data.setCell(13, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(13, 3, 156);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc_verfiyCartLogo')
+data.setCell(14, 2, 'com.dollardays.testcases.Team1HomePageTestcase')
+data.setCell(14, 3, 66);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.dollardays.testcases.Team1HomePageTestcase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tc_verfiyFooterLinks</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.Team1HomePageTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_06_CheckPageTitle({TestCase=verify home page title, SignInList=, SheetName=Sheet2, HomePageTitle=DollarDays | Bulk Goo...)</span>
+                <span class="method-start">9786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">10340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">15358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_verfiyCartLogo</span>
+                <span class="method-start">25370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">25437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">30304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_verfiyDdLogo</span>
+                <span class="method-start">40089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">40424 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">41808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_verfiySearchBar</span>
+                <span class="method-start">53061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">53220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">54948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_verfiySignInList({TestCase=verfiy signin list on homepage, SignInList=Welcome!,Sign In,Create account,Help, SheetName...)</span>
+                <span class="method-start">67138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">68503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">70181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_verfiySignInLogo</span>
+                <span class="method-start">84976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">85460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">87668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_verfiyWishList({TestCase=vefify wish list on homepage, SignInList=, SheetName=Sheet2, HomePageTitle=, TCID=TC12, Wi...)</span>
+                <span class="method-start">104375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">107672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">110010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_verfiyWishListLogo</span>
+                <span class="method-start">129656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">140788 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.Team1CreateAccountTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">147324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({ConfPassword=shilpa123, TestCase= Create Account, TCID=TC1, SheetName=Sheet3, Runmode=yes, Email=sh...)</span>
+                <span class="method-start">172759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">202051 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.Team1LoginTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">210543 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_01_SignInPage_ValidUsername_Password({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)</span>
+                <span class="method-start">238604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">270872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">277831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_02_SignInPageValidUsername_EmptyPassword({TestCase=valid email_id and empty password, SignInUser_Name=, Password=, Runmode=Yes, SheetName=She...)</span>
+                <span class="method-start">302624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">328032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">334900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_03_SignInPageEmptyUsername_EmptyPassword({TestCase=empty email_id and empty password, SignInUser_Name=, Password=, Runmode=yes, SheetName=She...)</span>
+                <span class="method-start">363385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">389852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">396563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_04_SignInPageInValidEmailAddressFormat({TestCase=invalid Email address format, SignInUser_Name=, Password=cGFzc3dvcmQxMjM=, Runmode=yes, Sh...)</span>
+                <span class="method-start">421369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">445080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">451079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_05_SignInPageValidEmailAddress_InvalidPassword({TestCase=valid email address and invalid password, SignInUser_Name=, Password=cGFzc3dvcmQxMjM0NQ==,...)</span>
+                <span class="method-start">473502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">500395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">507163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_SignInPage_Display_SignIn_Name({TestCase=valid Login data, SignInUser_Name=rdds m., Password=cGFzc3dvcmQxMjM0NQ==, Runmode=Yes, She...)</span>
+                <span class="method-start">532106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">571502 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
